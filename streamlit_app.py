@@ -7,7 +7,7 @@ st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
 st.title("💼 Customer Churn Predictor")
 
 st.markdown("""
-#Customer Churn Prediction App  
+# Customer Churn Prediction App  
 
 **Class Task:** Build a Streamlit app for churn prediction  
 **Submitted by:** Zuraiz Khan  
