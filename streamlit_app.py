@@ -7,10 +7,14 @@ st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
 st.title("💼 Customer Churn Predictor")
 
 st.markdown("""
-***Customer Churn Prediction App**!  
+#Customer Churn Prediction App  
+
 **Class Task:** Build a Streamlit app for churn prediction  
-**Due Date:** 20 Oct 2025
+**Submitted by:** Zuraiz Khan  
+**Instructor:** Eng. Kamran  
+**Due Date:** 20 Oct 2025  
 """)
+
 
 # Load artifacts
 model = joblib.load('best_churn_model.pkl')
